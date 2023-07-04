@@ -47,19 +47,23 @@
 			padding: 0;
 		}
 		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 89vh;
+		}
 		.btnyes {
 			background-color: #85ccc8;
 			color: #333;
 			font-size: 30px;
 			font-family: Arial, sans-serif;
-			/*text-shadow: 1px 1px 1px #000;*/
 			padding: 16px 100px;
 			border: none;
 			border-radius: 8px;
 			cursor: pointer;
 			box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 			transition: all 0.3s ease;
-			/* height: 100px;  высота кнопки */
 		}
 		.btnyes:hover {
 			background-color: #85c6cc;
@@ -71,14 +75,12 @@
 			color: #333;
 			font-size: 30px;
 			font-family: Arial, sans-serif;
-			/*text-shadow: 1px 1px 1px #000;*/
 			padding: 16px 95px;
 			border: none;
 			border-radius: 8px;
 			cursor: pointer;
 			box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 			transition: all 0.3s ease;
-			/*height: 100px;  высота кнопки */
 			margin-top: 30px; /* отступ сверху */
 		}
 		.btnno:hover {
