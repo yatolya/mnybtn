@@ -16,9 +16,9 @@
 		   });
 		</script>
 		<noscript><div><img src="https://mc.yandex.ru/watch/94177591" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<title>Нужны Деньги</title>
+	<title>Переход</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script>
+	<script type="text/javascript">
 		function openRandomLink() {
 		
 		  var randomNum = Math.floor(Math.random() * 2);
@@ -77,7 +77,7 @@
 			.title {
 			line-height: 50px;
 			font-size: 45px;
-			margin-bottom: -23px;
+			margin-bottom: -14px;
 			}
 			.timer{
 			line-height: 50px;
@@ -90,8 +90,11 @@
 <body>
 	<div class="container">
 		<h1 class="title">Срочно нужны деньги?</h1>
-		<p class="timer">Осталось <span id="timer">4</span> сек.</p>
-			  <script>
+		<p class="timer"> <span id="timer">4</span> сек...</p>
+		 <noscript>
+			<p class="timer">JavaScript выключен. Загрузка невозможна!</p>
+		</noscript>
+			  <script type="text/javascript">
 					// Получаем элемент, который будет отображать таймер
 					var timerElement = document.getElementById("timer");
 
